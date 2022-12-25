@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-image: url('https://www.pngmart.com/files/13/JoJos-Bizarre-Adventure-Jojo-PNG-Photo.png');
+  background-attachment: fixed;
+  margin: 0;
+  background-size: 20%;
+  backdrop-filter: blur(7px);
+}
+.content{
+    max-width: 800px;
+    margin:0 auto;
+}
+.header-content-img img{
+    width: 320px;
+    height: 210px; 
+}
+.header-main{
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    line-height: 80px;
+    padding-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.header-line-title{
+  color:rgb(254, 241, 0);
+  font-size:20px;  
+}
+.header-content-titles{
+    margin-left: 40px;
+}
+.header-content-name{
+    font-size: 50px;
+    color:rgb(254, 241, 0);
+    -webkit-text-stroke: 3px #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.header-content-job{
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(254, 241, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.about{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about-table{
+  display:flex;
+  flex-wrap: wrap;
+}
+.about-table-item{
+    padding: 30px;
+    background-color: rgb(236, 236, 236);
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    width: 100%;
+}
+.about-table-item-title{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.about-table-item-descr{
+    margin-top:21px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align:left;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+}
+.about-example{
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    margin-top:20px;
+    padding:30px;
+    border: 5px solid black;
+}
+.about-example-table{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+}
+.about-example-item{
+    background-color: rgb(230, 230, 230);
+    height: 300px;
+}
+.about-example-item img {
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.footer {
+  background-color: rgb(0, 0, 0);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(254, 241, 0);
+  line-height:  30px;
+  padding-right: 20px;
+  font-style: italic;
+  text-align: right;
+  font-size: 14px;  
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+}
+.menu a{
+  margin:0 auto;
+  background-color: rgb(254, 241, 0);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.menu {
+  padding-right: 40px;
+  word-spacing: 1em;
+}
+a:hover{
+  background-color: rgb(193, 183, 0);
+}

@@ -1,0 +1,88 @@
+body{
+    box-sizing: border-box;
+    margin: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.header {
+    background-color: rgb(0, 0, 0);
+    color:  rgb(254, 241, 0);
+    font-size: 20px; 
+    height: 80px;
+    line-height: 80px;
+    padding-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    background-color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(254, 241, 0);
+    line-height:  30px;
+    padding-right: 20px;
+    font-style: italic;
+    text-align: right;
+    font-size: 14px;  
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.content{
+    width: 760px; 
+    margin: 0 auto;
+    background-color: rgb(239, 239, 239);
+    border: 5px solid black;
+}
+.rect{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+  p {
+    font-size: 20px;
+    color:#000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .title{
+    font-size: 35px;
+    color:rgb(254, 241, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    -webkit-text-stroke: 3px #000;
+  }
+  .typeText::after {
+    content: "|";
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+  }
+  
+.soc-opros{
+    display: flex;
+    gap:15px;
+}
+.ef11{
+    max-width: 350px;
+}
+.menu a{
+    margin:0 auto;
+    background-color: rgb(254, 241, 0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  .menu {
+    padding-right: 40px;
+    word-spacing: 1em;
+  }
+  a:hover{
+    background-color: rgb(193, 183, 0);
+  }
